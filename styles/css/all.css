@@ -1,0 +1,48 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Playfair Display', serif;
+  /* The image used */
+  background-image: url("../../images/gridbg.png");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden; }
+
+body .text-divider {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 8px auto;
+  height: 0;
+  width: 100%;
+  max-height: 0;
+  font-size: 1px;
+  line-height: 0;
+  clear: both;
+  border: none;
+  border-top: 1px solid #aaaaaa;
+  border-bottom: 1px solid #ffffff; }
+body .about, body .projects {
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%; }
+body .about .links a {
+  color: #111; }
+body .about .about-description {
+  background-color: #FFF;
+  padding-top: 25px; }
+  body .about .about-description .scroll {
+    text-decoration: underline; }
+  body .about .about-description .scroll:hover {
+    color: #a6a6a6;
+    cursor: pointer; }
+body .projects a {
+  text-decoration: none; }
+body .projects .card-block {
+  padding: 20px; }
+
+/*# sourceMappingURL=all.css.map */
