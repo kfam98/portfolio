@@ -11,6 +11,8 @@ body, html {
   background-size: cover;
   overflow-x: hidden; }
 
+body .vid_click:hover {
+  opacity: .7; }
 body .text-divider {
   display: block;
   position: relative;
